@@ -30,7 +30,9 @@ data_visualisation/
 ├── images/ ← Exported plot images/screenshots
 └── README.md ← Project documentation
 
-Copy code
+yaml
+Copy
+Edit
 
 ---
 
@@ -40,36 +42,42 @@ Clone the repository:
 ```bash
 git clone https://github.com/Himanshusen273/Data_visualisation.git
 cd Data_visualisation
+Create and activate a virtual environment:
 
+bash
+Copy
+Edit
+python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+Install required packages:
+
+bash
+Copy
+Edit
 pip install matplotlib seaborn pandas
+🧪 Usage
+Go to the notebooks/ or scripts/ folder.
 
-## 🧪 Usage
-Go to the `notebooks/` or `scripts/` folder.
+Open and run .ipynb files to see visualizations interactively.
 
-Open and run `.ipynb` files to see visualizations interactively.
-
-Run `.py` scripts directly for standalone plotting.
+Run .py scripts directly for standalone plotting.
 
 You can also add your own data and customize plots easily.
 
----
+🎯 Purpose
+✅ Practice Hub: Strengthen visualization skills hands-on
+📁 Portfolio Builder: Great for resumes, GitHub profiles
+🧠 Learning Reference: Look back when needed
 
-## 🎯 Purpose
-✅ **Practice Hub**: Strengthen visualization skills hands-on  
-📁 **Portfolio Builder**: Great for resumes, GitHub profiles  
-🧠 **Learning Reference**: Look back when needed
-
----
-
-## 📝 Contribution
+📝 Contribution
 This project is personal and educational. You’re welcome to:
 
-- Fork it and add your own visualizations  
-- Suggest improvements or ideas  
-- Use it as a learning reference
+Fork it and add your own visualizations
 
----
+Suggest improvements or ideas
 
-## 📬 Contact
-Maintained by **Himanshu Sen**  
+Use it as a learning reference
+
+📬 Contact
+Maintained by Himanshu Sen
 Feel free to connect or drop feedback on GitHub!
